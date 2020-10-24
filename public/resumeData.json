@@ -4,7 +4,7 @@
     "occupation": "Python Developer && CEO of Volunteerio",
     "description": "Full Stack Mobile Developer and Entrepreneur",
     "image": "Henry.jpg",
-    "bio": "Hello, my name is Henry, I'm a Full Stack Mobile Developer currently working on my side project, Volunteerio. ",
+    "bio": "Hello, my name is Henry, I'm a Full Stack Mobile Developer currently working on my project, Volunteerio. ",
     "contactmessage": "Get in touch with me to receive details or anything else.",
     "email": "henry@volunteerio.us",
     "phone": "+1 (305) 873-4510",
@@ -15,7 +15,7 @@
       "zip": "12345"
     },
     "website": "http://www.volunteerio.us",
-    "resumedownload": "https://henrylec.dev/resume",
+    "resumedownload": "/resume",
     "social": [
       {
         "name": "github",
