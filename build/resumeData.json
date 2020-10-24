@@ -35,16 +35,10 @@
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
-      },
-      {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "company": "Volunteerio",
+        "title": "CEO & Software Engineer",
+        "years": "November 2019 - Present",
+        "description": "CEO of Volunteerio, an app to trak community service hours."
       }
     ],
     "skillmessage": "My Skills!",
@@ -82,6 +76,12 @@
         "category": "Mobile app to track community service hours (built in Xamarin Forms, Flask, Python, C#, and Postgres). Hosted on AWS.",
         "image": "volunteerio.png",
         "url": "https://www.volunteerio.us"
+      },
+      {
+        "title": "Just Clock It",
+        "category": "React App to keep track of times. User accounts with Google Oath.",
+        "image": "JCI.png",
+        "url": "https://just-clock-it-5ac2b.web.app/"
       }
     ]
   },
