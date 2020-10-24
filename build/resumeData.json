@@ -3,7 +3,7 @@
     "name": "Henry LeCompte",
     "occupation": "Python Developer && CEO of Volunteerio",
     "description": "Full Stack Mobile Developer and Entrepreneur",
-    "image": "IG_Sonny.jpeg",
+    "image": "Henry.jpg",
     "bio": "Hello, my name is Henry, I'm a Full Stack Mobile Developer currently working on my side project, Volunteerio. ",
     "contactmessage": "Get in touch with me to receive details or anything else.",
     "email": "henry@volunteerio.us",
@@ -15,28 +15,13 @@
       "zip": "12345"
     },
     "website": "http://www.volunteerio.us",
-    // "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "https://henrylec.dev/resume",
     "social": [
       {
         "name": "github",
         "url": "http://github.com/henrylec",
         "className": "fa fa-github"
       }
-      // {
-      //   "name": "facebook",
-      //   "url": "https://www.facebook.com/sonny.sangha.3",
-      //   "className": "fa fa-facebook"
-      // },
-      // {
-      //   "name": "linkedin",
-      //   "url": "https://www.linkedin.com/in/saajansangha/",
-      //   "className": "fa fa-linkedin"
-      // },
-      // {
-      //   "name": "instagram",
-      //   "url": "https://www.instagram.com/ssssangha/",
-      //   "className": "fa fa-instagram"
-      // }
     ]
   },
   "resume": {
@@ -94,46 +79,18 @@
     "projects": [
       {
         "title": "Volunteerio",
-        "category": "Mobile app to track community service hours (built in Xamarin Forms, Flask, Python, and C#)",
-        "image": "whatsapp-mern.jpeg",
+        "category": "Mobile app to track community service hours (built in Xamarin Forms, Flask, Python, C#, and Postgres). Hosted on AWS.",
+        "image": "volunteerio.png",
         "url": "https://www.volunteerio.us"
       }
-      // {
-      //   "title": "MERN Stack TikTok Clone",
-      //   "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-      //   "image": "tiktok-mern.jpeg",
-      //   "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      // },
-      // {
-      //   "title": "Facebook Clone with React",
-      //   "category": "Facebook Clone built with ReactJS",
-      //   "image": "facebook-clone.png",
-      //   "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      // },
-      // {
-      //   "title": "Airbnb Clone",
-      //   "category": "Facebook Clone built with ReactJS",
-      //   "image": "airbnb-clone.jpeg",
-      //   "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      // },
-      // {
-      //   "title": "Netflix Clone",
-      //   "category": "Facebook Clone built with ReactJS",
-      //   "image": "netflix-clone.jpeg",
-      //   "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
-      // }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Nothing",
+        "user": "Nothing"
+      }
     ]
   }
-  // "testimonials": {
-  //   "testimonials": [
-  //     {
-  //       "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-  //       "user": "Kareem Abdul Jabbar"
-  //     },
-  //     {
-  //       "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-  //       "user": "Steve Wozniak... impersonator"
-  //     }
-  //   ]
-  // }
 }
