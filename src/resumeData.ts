@@ -1,4 +1,6 @@
-{
+import {ResumeData as ResumeDataImpt} from "./interfaces"
+
+const ResumeData: ResumeDataImpt = {
   "main": {
     "name": "Henry LeCompte",
     "occupation": "Python Developer && CEO of Volunteerio",
@@ -94,3 +96,5 @@
     ]
   }
 }
+
+export default ResumeData

@@ -1,12 +1,17 @@
 import React, { useState } from "react";
+import { Main } from "../interfaces";
 
-const Contact = ({ data }) => {
+interface Props {
+  data: Main
+}
+
+const Contact: React.FC<Props> = ({ data }) => {
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault();
     window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
   };
@@ -21,7 +26,7 @@ const Contact = ({ data }) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">{data?.message}</p>
+          <p className="lead">{data.contactmessage}</p>
         </div>
       </div>
 
@@ -36,7 +41,7 @@ const Contact = ({ data }) => {
                 <input
                   value={name}
                   type="text"
-                  size="35"
+                  size={35}
                   id="contactName"
                   name="contactName"
                   onChange={(e) => setName(e.target.value)}
@@ -50,7 +55,7 @@ const Contact = ({ data }) => {
                 <input
                   value={email}
                   type="text"
-                  size="35"
+                  size={35}
                   id="contactEmail"
                   name="contactEmail"
                   onChange={(e) => setEmail(e.target.value)}
@@ -62,7 +67,7 @@ const Contact = ({ data }) => {
                 <input
                   value={subject}
                   type="text"
-                  size="35"
+                  size={35}
                   id="contactSubject"
                   name="contactSubject"
                   onChange={(e) => setSubject(e.target.value)}
@@ -76,8 +81,8 @@ const Contact = ({ data }) => {
                 <textarea
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  cols="50"
-                  rows="15"
+                  cols={50}
+                  rows={15}
                   id="contactMessage"
                   name="contactMessage"
                 ></textarea>
