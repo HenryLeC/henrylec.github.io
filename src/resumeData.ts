@@ -1,100 +1,110 @@
-import {ResumeData as ResumeDataImpt} from "./interfaces"
+import { ResumeData as ResumeDataImpt } from './interfaces';
 
 const ResumeData: ResumeDataImpt = {
-  "main": {
-    "name": "Henry LeCompte",
-    "occupation": "Python Developer && CEO of Volunteerio",
-    "description": "Full Stack Mobile Developer and Entrepreneur",
-    "image": "Henry.jpg",
-    "bio": "Hello, my name is Henry, I'm a Full Stack Mobile Developer currently working on my project, Volunteerio. ",
-    "contactmessage": "Get in touch with me to receive details or anything else.",
-    "email": "henry@volunteerio.us",
-    "phone": "+1 (305) 873-4510",
-    "address": {
-      "street": "123 Fake Street",
-      "city": "Miami",
-      "state": "FL",
-      "zip": "12345"
+  main: {
+    name: 'Henry LeCompte',
+    occupation: 'Python Developer && CEO of Volunteerio',
+    description: 'Full Stack Mobile Developer and Entrepreneur',
+    image: 'Henry.jpg',
+    bio: "Hello, my name is Henry, I'm a Full Stack Mobile Developer currently working on my project, Volunteerio. ",
+    contactmessage: 'Get in touch with me to receive details or anything else.',
+    email: 'henry@volunteerio.us',
+    phone: '+1 (305) 873-4510',
+    address: {
+      street: '123 Fake Street',
+      city: 'Miami',
+      state: 'FL',
+      zip: '12345',
     },
-    "website": "http://www.volunteerio.us",
-    "resumedownload": "/resume",
-    "social": [
+    website: 'http://www.volunteerio.us',
+    resumedownload: '/resume',
+    social: [
       {
-        "name": "github",
-        "url": "http://github.com/henrylec",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "education": [
-      {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
-      }
+        name: 'github',
+        url: 'http://github.com/henrylec',
+        className: 'fa fa-github',
+      },
     ],
-    "work": [
+  },
+  resume: {
+    education: [
       {
-        "company": "Volunteerio",
-        "title": "CEO & Software Engineer",
-        "years": "November 2019 - Present",
-        "description": "CEO of Volunteerio, an app to trak community service hours."
-      }
+        school: 'University of Kent',
+        degree: 'Masters in Advanced Computer Science',
+        graduated: 'January 2017',
+        description: 'Graduated with Distinction',
+      },
     ],
-    "skillmessage": "My Skills!",
-    "skills": [
+    work: [
       {
-        "name": "Flask",
-        "level": "100%"
+        company: 'Volunteerio',
+        title: 'CEO & Software Engineer',
+        years: 'November 2019 - Present',
+        description:
+          'CEO of Volunteerio, an app to trak community service hours.',
+      },
+    ],
+    skillmessage: 'My Skills!',
+    skills: [
+      {
+        name: 'Flask',
+        level: '100%',
       },
       {
-        "name": "Python",
-        "level": "100%"
+        name: 'Python',
+        level: '100%',
       },
       {
-        "name": "Git",
-        "level": "90%"
+        name: 'Git',
+        level: '90%',
       },
       {
-        "name": "Xamarin Forms",
-        "level": "80%"
+        name: 'Xamarin Forms',
+        level: '80%',
       },
       {
-        "name": "Postgresql",
-        "level": "50%"
+        name: 'Postgresql',
+        level: '50%',
       },
       {
-        "name": "ReactJS",
-        "level": "40%"
-      }
-    ]
+        name: 'ReactJS',
+        level: '40%',
+      },
+    ],
   },
-  "portfolio": {
-    "projects": [
+  portfolio: {
+    projects: [
       {
-        "title": "Volunteerio",
-        "category": "Mobile app to track community service hours (built in Xamarin Forms, Flask, Python, C#, and Postgres). Hosted on AWS.",
-        "image": "volunteerio.png",
-        "url": "https://www.volunteerio.us"
+        title: 'Oasis',
+        category:
+          'Oasis is an open source social media platform for developers that I am a lead maintainer of. It is hosted on AWS, uses GQL, Next.js, and TypeOrm',
+        image: 'oasis-logo.png',
+        url: 'https://github.com/oasis-sh/oasis',
       },
       {
-        "title": "Just Clock It",
-        "category": "React App to keep track of times. User accounts with Google Oath.",
-        "image": "JCI.png",
-        "url": "https://just-clock-it-5ac2b.web.app/"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
+        title: 'Volunteerio',
+        category:
+          'Mobile app to track community service hours (built in Xamarin Forms, Flask, Python, C#, and Postgres). Hosted on AWS.',
+        image: 'volunteerio.png',
+        url: 'https://www.volunteerio.us',
+      },
       {
-        "text": "Nothing",
-        "user": "Nothing"
-      }
-    ]
-  }
-}
+        title: 'Just Clock It',
+        category:
+          'React App to keep track of times. User accounts with Google Oath.',
+        image: 'JCI.png',
+        url: 'https://just-clock-it-5ac2b.web.app/',
+      },
+    ],
+  },
+  testimonials: {
+    testimonials: [
+      {
+        text: 'Nothing',
+        user: 'Nothing',
+      },
+    ],
+  },
+};
 
-export default ResumeData
+export default ResumeData;
